@@ -1,0 +1,22 @@
+{
+  "name": "learn-css-integration",
+  "version": "1.0.0",
+  "description": "ex2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gian1984/Learn-CSS-Integration.git"
+  },
+  "author": "gianluca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gian1984/Learn-CSS-Integration/issues"
+  },
+  "homepage": "https://github.com/Gian1984/Learn-CSS-Integration#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
+}

@@ -4,35 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn-CSS-Integration</title>
-    <link rel="stylesheet" href="mainex1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Learn CSS Integration</title>
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
+
     <h1>Interface 1</h1>
     <hr>
     <p>Create this view pixel-perfectly. Make it responsive: the grid should stack on small screens.</p>
     <div id="grid">
         <div>
-            <p style="text-align: center;"><img src="img/sanglier.png" max width="220px"></p>
+            <p style="text-align: center;"><img src="img/sanglier.png" alt="cinghiale"></p>
             <h4>Grunt plugin</h4>
             <p>Install the <strong>grunt-surge</strong> plugin, and your project is ready to use <strong>grunt deploy</strong>.</p>
         </div>
         <div>
-            <p style="text-align: center;"><img src="img/coca.png" max width="220px"></p>
+            <p style="text-align: center;"><img src="img/coca.png" alt="coca"></p>
             <h4>Gulp plugin</h4>
             <p>Install <strong>surge</strong> as a devDependency, and you're ready to use in your Gulpfile.</p>
         </div>
 
         <div>
-            <p style="text-align: center;"><img src="img/git.png" max width="220px"></p>
+            <p style="text-align: center;"><img src="img/git.png" alt="gitCat"></p>
             <h4>Git Hooks</h4>
             <p>Deploy every time you <strong>push</strong> to Github, but without any branch juggling.</p>
         </div>
 
         <div>
-            <p style="text-align: center;"><img src="img/npm.png" max width="220px"></p>
+            <p style="text-align: center;"><img src="img/npm.png" alt="npm"></p>
             <h4>npm run scripts</h4>
             <p>Install the Surge <small>CLI</small> tool, and your project is ready to use in your <strong>package.jason</strong>. </p>
         </div>
@@ -42,10 +42,94 @@
     <p>Create this view pixel-perfectly.</p>
 
 
+    <div class="container mt-5 d-flex">
+        <div class="card bg-primary text-white ">
 
+            <div class="card-body">
+                <h5 class="card-title">Users right now</h5>
+                <h1>90</h1>
+                <p class="card-text">Page views per minute</p>
+                <hr>
+                <img src="img2/grap.png" class="card-img-top" alt="grafico">
+            </div>
+            <table class="table table-sm text-white">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Top Active Pages</th>
+                        <th scope="col"></th>
+                        <th scope="col">Users</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>/actualites/so...nfants-femmes</td>
+                        <td></td>
+                        <td>46</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>/actualites/pol...arme-politique</td>
+                        <td></td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td colspan="2">/actualites/so...existe-femmes</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td colspan="2">/p/159944294/...ee-de-meurtre</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td colspan="2">/programmes-tele</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="card-body ">
+                <a href="#" class="card-link text-white float-right">REAL-TIME REPORT<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg></a>
+            </div>
+        </div>
+    </div>
 
+    <h1>Interface 3</h1>
+    <hr>
+    <p>Create this view pixel-perfectly.</p>
 
-
+    <div class="container d-flex mt-5">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="img3/mac.png" class="bd-placeholder-img" width="100%" height="250" alt="mac">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">A Quick Market-Driven Guide to Choosing a 'Profitable' Start-Up Name</h5>
+                        <p class="card-text text-secondary">And what 'profit'has to do with naming you're startup.</p>
+                    </div>
+                    <div class="card-text pmd-list border-0 mt-5">
+                        <div class="list-group-item d-flex border-0">
+                            <div class="pmd-avatar-list-img">
+                                <img src="img3/man.png" alt="man" class="img-fluid">
+                            </div>
+                            <div class="media-body ml-3">
+                                <p class="pmd-list-title text-secondary">
+                                    Josiah Humphrey
+                                    <br><small> 23 - 9 min read</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

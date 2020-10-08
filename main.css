@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Slab&display=swap');
+
+/* -- ex 1 grid style -- */
+
+#grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1vw;
+    margin: 30px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#grid>div {
+    font-size: 20px;
+    padding: 5px;
+    background: white;
+    margin-top: 20px;
+    font-family: 'PT Sans', sans-serif;
+    margin: 30px;
+    color: #a4a4a4;
+}
+
+#grid h4 {
+    color: #abd6bb;
+    font-size: 28px;
+}
+
+#grid strong {
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    color: darkgray;
+}
+
+
+/* Responsive layout - ipad - mobilephone */
+
+@media (max-width: 1024px) {
+    #grid {
+        margin-top: 20px;
+        display: block;
+    }
+}
